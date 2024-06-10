@@ -1,6 +1,6 @@
 #include <painlessMesh.h>
 
-#define statusine LED             2       
+#define LED             2       
 #define MESH_SSID       "whateverYouLike"
 #define MESH_PASSWORD   "somethingSneaky"
 #define MESH_PORT       5555
