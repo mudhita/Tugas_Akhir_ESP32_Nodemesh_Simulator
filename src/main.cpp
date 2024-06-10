@@ -1,12 +1,12 @@
 #include <painlessMesh.h>
 
-#define LED             2       
+#define statusine LED             2       
 #define MESH_SSID       "whateverYouLike"
 #define MESH_PASSWORD   "somethingSneaky"
 #define MESH_PORT       5555
 
-#define BLINK_PERIOD    3000  // milliseconds until cycle repeat
-#define BLINK_DURATION  100   // milliseconds LED is on for
+#define BLINK_PERIOD    3000   // milliseconds until cycle repeat
+#define BLINK_DURATION  100    // milliseconds LED is on for
 
 Scheduler userScheduler;      // to control your personal task
 painlessMesh mesh;
